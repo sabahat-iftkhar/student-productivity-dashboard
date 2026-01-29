@@ -20,4 +20,5 @@ Unlike generic apps, this project focuses on **student productivity**, clean **U
 Sabahat Iftkhar
 
  Live Demo
-[View Live Dashboard](https://yourusername.github.io/student-productivity-dashboard/)
+[View Live Dashboard](https://sabahat-iftkhar.github.io/student-productivity-dashboard/)
+
