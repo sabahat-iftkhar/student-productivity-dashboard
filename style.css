@@ -101,3 +101,35 @@ ul li::before {
     width: 0%;
     transition: width 0.5s ease;
 }
+/* Dark Mode Styles */
+body.dark {
+    background-color: #121212;
+    color: #e0e0e0;
+}
+
+body.dark header p {
+    color: #bbbbbb;
+}
+
+body.dark section {
+    background-color: #1e1e1e;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.6);
+}
+
+body.dark h1,
+body.dark h2 {
+    color: #ffffff;
+}
+
+body.dark p {
+    color: #cccccc;
+}
+
+body.dark button {
+    background-color: #6abf69;
+    color: #000000;
+}
+
+body.dark .progress-bar {
+    background-color: #333333;
+}

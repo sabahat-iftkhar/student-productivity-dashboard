@@ -31,3 +31,15 @@ newQuoteBtn.addEventListener('click', function() {
     let randomIndex = Math.floor(Math.random() * quotes.length);
     quote.textContent = quotes[randomIndex];
 });
+// Dark mode toggle
+let themeToggle = document.getElementById("themeToggle");
+
+themeToggle.addEventListener("click", function () {
+    document.body.classList.toggle("dark");
+
+    if (document.body.classList.contains("dark")) {
+        themeToggle.textContent = "☀️ Light Mode";
+    } else {
+        themeToggle.textContent = "🌙 Dark Mode";
+    }
+});
