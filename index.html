@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Productivity Dashboard</title>
+    
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        
+        <h1>Student Productivity Dashboard</h1>
+        <p>Manage your daily tasks and stay motivated!</p>
+        <button id="themeToggle">🌙 Dark Mode</button>
+    </header>
+
+    <!-- Today's Focus Card -->
+    <section id="focus">
+        <h2>Today's Focus</h2>
+        <p id="task">Study Web Development</p>
+        <button id="doneBtn">Mark as Done</button>
+    </section>
+
+    <!-- Study Planner Card -->
+    <section id="planner">
+        <h2>Study Planner</h2>
+        <ul>
+            <li>Morning: Review HTML & CSS</li>
+            <li>Afternoon: JavaScript Practice</li>
+            <li>Evening: Build Mini Project</li>
+        </ul>
+    </section>
+
+    <!-- Motivation Card -->
+    <section id="motivation">
+        <h2>Motivation Quote</h2>
+        <p id="quote">“The secret to getting ahead is getting started.”</p>
+        <button id="newQuoteBtn">New Quote</button>
+    </section>
+
+    <!-- Progress Card -->
+    <section id="progress">
+        <h2>Progress Status</h2>
+        <p>Tasks completed: <span id="completed">0</span>/3</p>
+        <div class="progress-bar">
+            <div class="progress-fill" style="width: 0%;"></div>
+        </div>
+    </section>
+
+    <!-- JS -->
+    <script src="script.js"></script>
+</body>
+</html>
+
