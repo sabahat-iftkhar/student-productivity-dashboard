@@ -31,7 +31,7 @@ This project was built to:
 - Prepare for internships and junior roles
 
 ## 📸 Project Preview
-![Dashboard Preview](assets/images/dark mode dashboards preview.png)
+[Dashboard Preview](assets/images/dashboard-preview.png)
 
 
 ## 📌 Future Improvements
