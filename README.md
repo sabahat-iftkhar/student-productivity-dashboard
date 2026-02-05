@@ -1,27 +1,40 @@
 #live demo
+dark mode
 (https://sabahat-iftkhar.github.io/student-productivity-dashboard/)
 
+ 
 
-# Student Productivity Dashboard
 
-A clean and professional dashboard designed to help students manage their daily study tasks and stay motivated.
+# 🌙 Modern Dashboard UI
 
-# Features
-- Today's Focus section with task completion
-- Study Planner for daily study schedule
-- Motivation Quotes with interactive button
-- Progress tracking of completed tasks
+A modern, clean dashboard interface built using HTML, CSS, and basic JavaScript.
+This project focuses on real-world UI practices such as dark mode, layout structure,
+and responsive design.
 
-# Technologies Used
-- HTML
-- CSS
-- JavaScript (basic)
+## ✨ Features
+- 🌙 Dark mode toggle
+- 📱 Responsive layout for all devices
+- 🧩 Card-based dashboard design
+- 🎨 Professional color system
+- ⚡ Clean and readable UI
 
- # Why this project is unique
-Unlike generic apps, this project focuses on **student productivity**, clean **UI design**, and **interactive features**.
+## 🛠️ Technologies Used
+- HTML5
+- CSS3 (Flexbox & Grid)
+- JavaScript (DOM basics)
 
-# Author
-Sabahat Iftkhar
+## 🎯 Purpose of This Project
+This project was built to:
+- Practice modern UI design
+- Improve frontend fundamentals
+- Create a portfolio-ready dashboard
+- Prepare for internships and junior roles
 
- Live Demo
-[View Live Dashboard](https://sabahat-iftkhar.github.io/student-productivity-dashboard/)
+## 📸 Project Preview
+![Dashboard Preview](assets/images/dark mode dashboards preview.png)
+
+
+## 📌 Future Improvements
+- Add charts and analytics
+- Save dark mode preference
+- Improve animations
