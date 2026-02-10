@@ -195,3 +195,28 @@ body.dark .progress-bar {
     transform: translateY(0);
   }
 }
+/* 📱 Mobile Responsiveness */
+@media (max-width: 768px) {
+
+  .dashboard {
+    padding: 16px;
+  }
+
+  .card {
+    padding: 16px;
+    border-radius: 14px;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  h2 {
+    font-size: 1.2rem;
+  }
+
+  button {
+    width: 100%;
+    padding: 12px;
+  }
+}
