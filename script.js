@@ -1,93 +1,45 @@
-<<<<<<< HEAD
-// Mark task as done
-let doneBtn = document.getElementById('doneBtn');
-let completed = document.getElementById('completed');
-let progressFill = document.querySelector('.progress-fill');
+// ===== Task Completion Logic =====
+const doneBtn = document.getElementById('doneBtn');
+const completed = document.getElementById('completed');
+const progressFill = document.querySelector('.progress-fill');
 
-doneBtn.addEventListener('click', function() {
-    let current = parseInt(completed.textContent);
-    if(current < 3) {
-        completed.textContent = current + 1;
-        let widthPercent = ((current + 1)/3) * 100;
-        progressFill.style.width = widthPercent + '%';
-        alert("Good job! Task completed!");
-    } else {
-        alert("All tasks are already completed!");
-    }
+doneBtn.addEventListener('click', () => {
+  let current = parseInt(completed.textContent);
+
+  if (current < 3) {
+    current++;
+    completed.textContent = current;
+    progressFill.style.width = (current / 3) * 100 + '%';
+    alert("Good job! Task completed!");
+  } else {
+    alert("All tasks are already completed!");
+  }
 });
 
-// Change motivation quote
-let newQuoteBtn = document.getElementById('newQuoteBtn');
-let quote = document.getElementById('quote');
+// ===== Motivation Quotes =====
+const newQuoteBtn = document.getElementById('newQuoteBtn');
+const quote = document.getElementById('quote');
 
-let quotes = [
-    "The secret to getting ahead is getting started.",
-    "Don’t watch the clock; do what it does. Keep going.",
-    "Push yourself, because no one else is going to do it for you.",
-    "Dream big. Work hard. Stay focused.",
-    "Small progress each day adds up to big results."
+const quotes = [
+  "The secret to getting ahead is getting started.",
+  "Don’t watch the clock; do what it does. Keep going.",
+  "Push yourself, because no one else is going to do it for you.",
+  "Dream big. Work hard. Stay focused.",
+  "Small progress each day adds up to big results."
 ];
 
-newQuoteBtn.addEventListener('click', function() {
-    let randomIndex = Math.floor(Math.random() * quotes.length);
-    quote.textContent = quotes[randomIndex];
-});
-// Dark mode toggle
-let themeToggle = document.getElementById("themeToggle");
-
-themeToggle.addEventListener("click", function () {
-    document.body.classList.toggle("dark");
-
-    if (document.body.classList.contains("dark")) {
-        themeToggle.textContent = "☀️ Light Mode";
-    } else {
-        themeToggle.textContent = "🌙 Dark Mode";
-    }
-});
-=======
-// Mark task as done
-let doneBtn = document.getElementById('doneBtn');
-let completed = document.getElementById('completed');
-let progressFill = document.querySelector('.progress-fill');
-
-doneBtn.addEventListener('click', function() {
-    let current = parseInt(completed.textContent);
-    if(current < 3) {
-        completed.textContent = current + 1;
-        let widthPercent = ((current + 1)/3) * 100;
-        progressFill.style.width = widthPercent + '%';
-        alert("Good job! Task completed!");
-    } else {
-        alert("All tasks are already completed!");
-    }
+newQuoteBtn.addEventListener('click', () => {
+  const randomIndex = Math.floor(Math.random() * quotes.length);
+  quote.textContent = quotes[randomIndex];
 });
 
-// Change motivation quote
-let newQuoteBtn = document.getElementById('newQuoteBtn');
-let quote = document.getElementById('quote');
+// ===== Dark Mode Toggle =====
+const themeToggle = document.getElementById("themeToggle");
 
-let quotes = [
-    "The secret to getting ahead is getting started.",
-    "Don’t watch the clock; do what it does. Keep going.",
-    "Push yourself, because no one else is going to do it for you.",
-    "Dream big. Work hard. Stay focused.",
-    "Small progress each day adds up to big results."
-];
+themeToggle.addEventListener("click", () => {
+  document.body.classList.toggle("dark");
 
-newQuoteBtn.addEventListener('click', function() {
-    let randomIndex = Math.floor(Math.random() * quotes.length);
-    quote.textContent = quotes[randomIndex];
+  themeToggle.textContent = document.body.classList.contains("dark")
+    ? "☀️ Light Mode"
+    : "🌙 Dark Mode";
 });
-// Dark mode toggle
-let themeToggle = document.getElementById("themeToggle");
-
-themeToggle.addEventListener("click", function () {
-    document.body.classList.toggle("dark");
-
-    if (document.body.classList.contains("dark")) {
-        themeToggle.textContent = "☀️ Light Mode";
-    } else {
-        themeToggle.textContent = "🌙 Dark Mode";
-    }
-});
->>>>>>> 7f1e174a46ed32e842bbf400855449063f407b63
