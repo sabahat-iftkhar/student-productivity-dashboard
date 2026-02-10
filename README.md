@@ -32,10 +32,6 @@ This project focuses on real-world **UI practices**, including dark mode, respon
 - Create a portfolio-ready dashboard
 - Prepare for internships and junior frontend roles
 
----
-
-## 📸 Project Preview
-![Dashboard Preview](assets/images/dashboard-preview.png)
 
 ---
 
