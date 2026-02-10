@@ -15,7 +15,7 @@ This project focuses on real-world **UI practices**, including dark mode, respon
 - ⚡ Clean and readable UI
 - ✅ Task completion tracking
 - 💡 Motivation quotes with interactive button
-- 📊 Progress tracking of completed tasks
+- Progress tracking of completed tasks
 
 ---
 
@@ -50,4 +50,3 @@ This project focuses on real-world **UI practices**, including dark mode, respon
 ## 👤 Author
 **Sabahat Iftkhar**
 
-[View Live Dashboard](https://sabahat-iftkhar.github.io/student-productivity-dashboard/)
